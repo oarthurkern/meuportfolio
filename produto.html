@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de carvão</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1 class="h1">Faça o seu pedido...</h1>
+    </header>
+
+    <section>
+        <div class="preços">
+            
+            <ol>🔥🔥 TABELA DE PREÇO 🔥🔥</ol>
+            <li class="preços">CARVÃO 8KG - R$ 15,00</li>
+            <li class="preços">CARVÃO 5KG - R$ 10,00</li>
+            <li class="preços">CARVÃO 4KG - R$ 8,00</li>
+            <li class="preços">CARVÃO 3KG - R$ 6,00</li>
+        </div>
+
+        <div class="escolha">
+            <p>Escolha por kg o pacote de carvão:</p>
+            <input type="radio" name="radcarvao" id="carvao8">
+            <label for="8kg">8kg</label>
+            <input type="radio" name="radcarvao" id="carvao5">
+            <label for="5kg">5kg</label>
+            <input type="radio" name="radcarvao" id="carvao4">
+            <label for="4kg">4kg</label>
+            <input type="radio" name="radcarvao" id="carvao3">
+            <label for="3kg">3kg</label>
+            <p></p>
+        </div>
+
+        <div class="quantidade">
+            Quantidade: <input class="caixa" type="number" name="quantidade" id="quantidade" min="1" max="10">
+            
+        </div>
+
+        <div class="botao">
+            <input class="botão" type="button" value="Concluir" onclick="concluir()">
+        </div>
+        <div id="res">
+            <p>Preencha ao seu gosto...</p>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>@arthurkernn</p>
+    </footer>
+
+    <script src="script02.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(to bottom, #0c0909c0, #221e1bd7, #b30c0cc0);
+}
+
+@font-face {
+    font-family: rabeca;
+    src: url(font/Rabeeca.otf);
+}
+
+@font-face {
+    font-family: rose;
+    src: url(font/Rose.otf);
+}
+
+header {
+    color: rgba(255, 255, 255, 0.863);
+    text-align: center;
+}
+
+section {
+    font-family: rose;
+    
+    background: #f25c0563;
+    padding: 8px;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.11);
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: blanchedalmond;
+
+
+}
+.escolha {
+    text-align: center;
+    font-family: rose;
+
+    font-size: 20pt;
+}
+#res {
+    text-align: center;
+    font-family: rose;
+
+    padding: 5px;
+
+    font-size: 18pt;
+}
+.quantidade {
+    text-align: center;
+
+    font-size: 24pt;
+}
+.botao {
+    text-align: center;
+}
+.botão {
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.322);
+    height: 30px;
+    width: 80px;
+    letter-spacing: 2px;
+    font-family: rabeca;
+
+    background-image: linear-gradient(to top, #ff000069, #8f181849, #75212152);
+    margin-top: 6px;
+}
+.preços {
+    text-align: center;
+    font-family: rose;
+
+    font-size: 23pt;
+}
+.h1 {
+    font-family: rabeca;
+    color: rgb(226, 226, 226);
+    
+    font-size: 30pt;
+}
+.preços {
+    align-items: center;
+    text-align: center;
+}
+
+.caixa {
+    border-radius: 4px;
+
+    box-shadow: 1px 1px 1px 1px rgba(255, 0, 0, 0.158);
+    padding: 6px;
+
+    color: black;
+}
