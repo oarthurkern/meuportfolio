@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+
+/* fonts */
+@font-face {
+    font-family: pixel;
+    src: url(fonts/PIXEARG_.TTF);
+}
+@font-face {
+    font-family: pixel;
+    src: url(fonts/PIXEAB__.TTF);
+}
+@font-face {
+    font-family: rabeca;
+    src: url(fonts/Rabeeca.otf);
+}
+
+/* BOTÃO */
+.botao {
+    text-align: center;
+    display: block;
+
+    margin-top: 10px;
+}
+
+div > input {
+    padding: 10px;
+    width: 150px;
+    box-shadow: 1px 1px 1px 1px #faec27d3;
+
+    background-color: #ccff33d0;
+    border-radius: 5px;
+    border: white;
+
+
+    font-family: pixel;
+}
+
+/* IMG */
+img {
+    padding: 89px;
+}
+picture {
+    text-align: center;
+    display: block;
+
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 11px;
+    background-color: #f2b441c2;
+
+    font-family: pixel;
+    font-size: 12pt;
+    color: rgb(0, 0, 0);
+
+}
+
+.alert {
+    text-align: center;
+    font-family: rabeca;
+    font-size: 20pt;
+    color: white;
+
+    letter-spacing: 3px;
+}
+
