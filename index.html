@@ -13,33 +13,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <main>
-        <picture>
-            <source media="(min-width: 498px)" srcset="img/kernpq.gif" type="gif">
-            <img src="img/Arthur Kern.gif" alt="gifrexcorrendo">
-        </picture>
-
-        <div  class="alert">
-            <script>
-                var nome = prompt("Qual seu nome?")
-                var nome = prompt("Qual o seu nome?... Você tem um nome, diga-me")
-
-                if (nome == 0) {
-                    document.write("Beleza, ola pessoa sem nome, clique no botão abaixo para acessar o portal.")             
-                }else {
-                document.write(`Olá ${nome}, clique no botão abaixo para acessar o portal.`)
-                }
-            </script>
-        </div>
-
-        <a href="2.html" target="_blank">
-            <div class="botao">
-                <input type="button" value="AQUI!">
+        <div>
+            <div class="gif">
+                <picture>
+                    <source media="(max-width: 498px)" srcset="img/kernpq.gif" type="gif">
+                    <img src="img/Arthur Kern.gif" alt="gifrexcorrendo">
+                </picture>
             </div>
-        </a>
-    </main>
-    <br>
+            <div  class="alert">
+                <script>
+                    var nome = prompt("Qual seu nome?")
+                    if (nome == 0) {
+                        document.write("Você não me disse seu nome, vou te chamar de Carlos. Clique no botão abaixo para saber mais.")
+                    }else {
+                    document.write(`Olá ${nome}, clique no botão abaixo para acessar o portal.`)
+                    }
+                </script>
+            </div>
+            <div class="botao">
+               <a href="2.html" target="_blank" rel="external"><button>AQUI!!</button></a>
+            </div>
+                <br>
+        </div>
     <footer>
         <p>Desenvolvido por Arthur Kern</p>
     </footer>

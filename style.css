@@ -3,7 +3,8 @@
     padding: 0px;
 }
 body {
-    background-color: black;
+    background-color: #000000;
+    text-align: center;
 }
 
 /* fonts */
@@ -19,57 +20,56 @@ body {
     font-family: rabeca;
     src: url(fonts/Rabeeca.otf);
 }
-
-/* BOTÃO */
-.botao {
-    text-align: center;
-    display: block;
-
+.gif {
+    margin-top: 8rem;
+}
+.alert {
+    background-color: rgb(17, 13, 13);
+    width: auto;
     margin-top: 10px;
+    margin-bottom: 6px;
+    padding: 14px;
+    font-family: rabeca;
+    font-size: 18pt;
+    color: antiquewhite;
+    font-weight: normal;
+    letter-spacing: 1px;
 }
 
-div > input {
-    padding: 10px;
-    width: 150px;
-    box-shadow: 1px 1px 1px 1px #faec27d3;
-
-    background-color: #ccff33d0;
-    border-radius: 5px;
-    border: white;
-
-
+button {
+    color: antiquewhite;
+    margin-top: 6px;
+    background-color: rgba(255, 255, 0, 0.644);
+    padding: 15px;
+    border-radius: 20px;
+    border: 0px;
     font-family: pixel;
-}
-
-/* IMG */
-img {
-    padding: 89px;
-}
-picture {
-    text-align: center;
-    display: block;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(226, 214, 214, 0.418);
 
 }
-
-/* footer */
 
 footer {
-    text-align: center;
-    padding: 11px;
-    background-color: #f2b441c2;
 
-    font-family: pixel;
-    font-size: 12pt;
-    color: rgb(0, 0, 0);
-
-}
-
-.alert {
-    text-align: center;
+    color: rgb(163, 163, 163);
     font-family: rabeca;
-    font-size: 20pt;
-    color: white;
-
-    letter-spacing: 3px;
+    padding-top: 10px;
+    height: 44px;
+    background-color: #a4a40005;
 }
 
+@media (max-width: 500px) {
+    .gif {
+        margin-top: 150px;
+    }
+    .alert {
+        margin-top: 30px;
+    }
+    button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer {
+        margin-top: 10px;
+    }
+}
