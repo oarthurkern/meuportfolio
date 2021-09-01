@@ -12,6 +12,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16pt;
 }
+.fundo h1 {
+    margin-bottom: 20px;
+}
 
 .calculadora {
     position: absolute;

@@ -9,7 +9,7 @@ img {
 }
 
 body {
-    background: url(img/background.jpg) top;
+    background-image: linear-gradient(to bottom, #D47ECB, #D47ECB);
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center center;
@@ -34,12 +34,13 @@ body {
 }
 
 .box {
-    background-color: #eee;
+    background-color: rgb(219, 218, 218);
     padding: 4rem;
-    box-shadow: 2px 2px 16px rgba(0,0,0,0.16);
+    box-shadow: 2px 2px 2px 16px rgba(0, 0, 0, 0.445);
     border-radius: 50px;
     text-align: center;
     margin-top: 3rem;
+    color: #96948d;
 }
 
 
@@ -66,6 +67,7 @@ body {
 }
 
 .redes-sociais {
+    margin: 0px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,12 +85,14 @@ li {
 
 .profile-box {
     max-width: 900px;
-    margin: 5rem 0;
+    margin: 0px auto;
+    margin-top: 5rem;
     background-color: #eee;
     padding: 2rem;
-    box-shadow: 2px 2px 16px rgba(0,0,0,0.16);
+    
     border-radius: 50px;
     text-align: center;
+    box-shadow: 2px 2px 2px 16px rgba(0, 0, 0, 0.445);
 }
 
 
@@ -107,8 +111,15 @@ li {
 
 .text01 img {
     border-radius: 40px;
+    margin-top: 1rem;
 }
 
+#fotoCalculadora {
+    margin-top: 1rem;
+}
+#fotoSort {
+    margin-top: 1rem;
+}
 
 .text01 p {
     margin-top: 80px;
@@ -131,7 +142,7 @@ li {
     margin: 5rem 0;
     background-color: #eee;
     padding: 4rem;
-    box-shadow: 2px 2px 16px rgba(0,0,0,0.16);
+    box-shadow: 2px 2px 2px 16px rgba(0, 0, 0, 0.445);
     border-radius: 50px;
     text-align: center;
 }
@@ -139,6 +150,7 @@ li {
 .portfolio-box h1{
     font-size: 40pt;
     color: #858585;
+    margin-bottom: 2rem;
 }
 .portfolio ul {
     margin-top: 3rem;
@@ -159,19 +171,29 @@ li {
     font-size: 15pt;
 }
 
-button {
-    margin-top: 50px;
+.botao01 {
     margin-left: 300px;
-    padding: 10px;
+    padding: 20px;
     border: none;
     background-color: rgba(65, 62, 62, 0.432);
     color: #eee;
     box-shadow: 1px 1px 1px 1px #eee;
     border-radius: 10px;
+    width: 60px;
 }
 
-.link button:hover {
-    background-color: #0c0808ab;
+.link a {
+    text-decoration: none;
+}
+
+.link {
+    margin-top: 3rem;
+}
+
+
+.link .botao01:hover {
+    background-color: #D47ECB;
+    color: black;
 
 }
 .rodape {
